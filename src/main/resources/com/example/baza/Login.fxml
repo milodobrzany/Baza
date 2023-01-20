@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.baza.Logowanie">
+
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnZmiana" text="Powrót" />
+      <Button layoutX="190.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="25.0" prefWidth="72.0" text="Zaloguj" />
+      <TextField fx:id="tfEmail" layoutX="151.0" layoutY="160.0" />
+      <TextField fx:id="tfPassword" layoutX="151.0" layoutY="200.0" />
+      <Label layoutX="29.0" layoutY="160.0" prefHeight="25.0" prefWidth="102.0" text="E-mail" />
+      <Label layoutX="29.0" layoutY="200.0" prefHeight="25.0" prefWidth="102.0" text="Password" />
+   </children>
+</AnchorPane>

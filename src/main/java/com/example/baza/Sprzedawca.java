@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class Sprzedawca {
 
+
     @FXML
     void btnAddProducts(ActionEvent event) throws IOException {
         HelloApplication m = new HelloApplication();
